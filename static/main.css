@@ -27,7 +27,7 @@ body {
   padding-top: 35px;
 }
 .icon {
-  width: 120px;
+  width: 130px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 30px;
@@ -46,6 +46,8 @@ h3 {
   line-height: 40px;
   font-weight: bold;
   color: #202123;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 form {
   display: flex;
