@@ -34,6 +34,7 @@ def index():
         )
 
         resultText = response['choices'][0]['message']['content']
+        print (stableDiffusionKey)
 
         payload = json.dumps({
             "key": stableDiffusionKey,
@@ -64,6 +65,7 @@ def index():
 
         if "output" in responseJson:
             pictureUrl = responseJson["output"]
+        print(responseJson)
 
         return redirect(url_for("index", result=resultText, pictureUrl=pictureUrl))
 
