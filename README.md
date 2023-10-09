@@ -3,7 +3,8 @@ Creative writing sentence generator using user input prompts.
 
 Coded using the OpenAI API, HTML/CSS and Python (Flask) backend.
 Powered by GPT-3.5. 
-Images AI generated from stable diffusion.
+
+AI generated images from stable diffusion.
 
 Preview Demo (v1):
 ![Creative Generator Webapp](https://j.gifs.com/BrArEJ.gif)
