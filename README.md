@@ -9,7 +9,7 @@ Preview Demo (v1):
 
 v2:
 
-<img width="773" alt="image" src="https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/1612ed8c-3a81-4f53-a4fb-5947d0e861af">
+<img width="1124" alt="image" src="https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/9f87c3f6-d0ab-403c-916e-e5d6b48f3f3e">
 
 
 ## Setup (local)
