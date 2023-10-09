@@ -15,7 +15,8 @@ v2:
 
 With AI-generated images (stable diffusion): 
 
-![With Stable Diffusion](https://j.gifs.com/MZPZK3.gif)
+![gif](https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/3e8b3127-fc80-470a-8f57-69e57d10f656)
+
 
 ## Setup (local)
 
