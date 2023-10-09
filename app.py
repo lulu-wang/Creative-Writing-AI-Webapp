@@ -6,6 +6,7 @@ from flask import Flask, redirect, render_template, request, url_for
 
 app = Flask(__name__)
 openai.api_key = os.getenv("OPENAI_API_KEY")
+stableDiffusionKey = os.getenv("STABLEDIFFUSION_API_KEY")
 stable_diffusion_url = "https://stablediffusionapi.com/api/v3/text2img"
 
 
@@ -35,7 +36,7 @@ def index():
         resultText = response['choices'][0]['message']['content']
 
         payload = json.dumps({
-            "key": "A3JZV8fcdyGJe5jO2izcRIb7sCXTmA0u3XMbPefHAJLPU6g4Hn9f7elc7OQY",
+            "key": stableDiffusionKey,
             "prompt": resultText,
             "negative_prompt": "nudity",
             "width": "512",
@@ -60,10 +61,10 @@ def index():
 
         responsePicture = requests.request("POST", stable_diffusion_url, headers=headers, data=payload)
         responseJson = responsePicture.json()
-        pictureUrl = responseJson["output"]
-        print(pictureUrl)
 
-        print(response)
+        if "output" in responseJson:
+            pictureUrl = responseJson["output"]
+
         return redirect(url_for("index", result=resultText, pictureUrl=pictureUrl))
 
     result = request.args.get("result")

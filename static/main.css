@@ -39,6 +39,7 @@ body {
 h2 {
   font-style: bold;
   font-size: 26px;
+  margin-bottom: 30px;
 }
 h3 {
   font-size: 32px;
@@ -77,9 +78,20 @@ input[type="submit"] {
   margin-bottom: 70px;
   width: 500px;
 }
-
+.resultSection {
+  background-color: #efefef;
+  padding: 25px;
+  border-radius: 20px;
+  font-style: italic;
+}
+img[src=""] {
+  display: none;
+}
 .aiPicture { 
-  width: 500px;
-  height: 500px;
+  max-width: 500px;
+  max-height: 500px;
   margin-bottom: 100px;
+}
+.footnote {
+  font-size: 13px;
 }
