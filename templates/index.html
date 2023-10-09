@@ -3,7 +3,7 @@
   <title>OpenAI Quickstart</title>
   <link
     rel="shortcut icon"
-    href="{{ url_for('static', filename='dog.png') }}"
+    href="{{ url_for('static', filename='chatIcon.jpg') }}"
   />
   <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
 </head>
@@ -12,8 +12,7 @@
   <img src="{{ url_for('static', filename='chatIcon.jpg') }}" class="icon" />
   <h3 class="title">Creative Writing Generator</h3>
   <div class="description">
-    <p>Input a prompt topic to generate a sentence.</p>
-    <p> Then use the sentence in a story.</p>
+    <p>Input a prompt topic to generate a sentence. Then use the sentence in a story.</p>
   </div>
   <form action="/" method="post">
     <input type="text" name="userText" placeholder="Enter a prompt" required />
@@ -24,6 +23,9 @@
   <div class="result">
     <h2>Robot says: </h2>
     {{ result }}
+  </div>
+  <div class="aiPicture">
+    <img src="{{pictureUrl}}" class="aiPicture"/>
   </div>
   {% endif %}
 </body>
