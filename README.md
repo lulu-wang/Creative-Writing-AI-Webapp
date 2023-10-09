@@ -4,8 +4,13 @@ Creative writing sentence generator using user input prompts.
 Coded using the OpenAI API, HTML/CSS and Python (Flask) backend.
 Powered by GPT-3.5.
 
-Preview Demo:
+Preview Demo (v1):
 ![Creative Generator Webapp](https://j.gifs.com/BrArEJ.gif)
+
+v2:
+
+<img width="1124" alt="image" src="https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/9f87c3f6-d0ab-403c-916e-e5d6b48f3f3e">
+
 
 ## Setup (local)
 
