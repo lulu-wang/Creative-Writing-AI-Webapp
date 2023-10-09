@@ -1,5 +1,5 @@
 # Creative Writing Generator Webapp
-Creative writing sentence generator using user input prompts.
+Creative writing sentence generator using user input prompts. AI images are generated from the prompt results.
 
 Coded using the OpenAI API, HTML/CSS and Python (Flask) backend.
 Powered by GPT-3.5. 
