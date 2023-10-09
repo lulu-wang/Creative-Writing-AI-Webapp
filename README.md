@@ -1,15 +1,20 @@
 # Creative Writing Generator Webapp
-Creative writing sentence generator using user input prompts.
+Creative writing sentence generator using user input prompts. AI images are generated from the prompt results.
 
 Coded using the OpenAI API, HTML/CSS and Python (Flask) backend.
-Powered by GPT-3.5.
+Powered by GPT-3.5. 
+
+AI generated images from stable diffusion.
 
 Preview Demo (v1):
 ![Creative Generator Webapp](https://j.gifs.com/BrArEJ.gif)
 
-v2:
+V2 - With AI-generated images (stable diffusion): 
 
-<img width="1124" alt="image" src="https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/9f87c3f6-d0ab-403c-916e-e5d6b48f3f3e">
+![gif](https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/3e8b3127-fc80-470a-8f57-69e57d10f656)
+
+Longer:
+![StableDiff](https://j.gifs.com/WPrPKg.gif)
 
 
 ## Setup (local)
