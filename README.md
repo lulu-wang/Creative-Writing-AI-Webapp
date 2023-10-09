@@ -9,11 +9,7 @@ AI generated images from stable diffusion.
 Preview Demo (v1):
 ![Creative Generator Webapp](https://j.gifs.com/BrArEJ.gif)
 
-v2:
-
-<img width="1124" alt="image" src="https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/9f87c3f6-d0ab-403c-916e-e5d6b48f3f3e">
-
-With AI-generated images (stable diffusion): 
+V2 - With AI-generated images (stable diffusion): 
 
 ![gif](https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/3e8b3127-fc80-470a-8f57-69e57d10f656)
 
