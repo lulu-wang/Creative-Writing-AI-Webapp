@@ -13,8 +13,9 @@ v2:
 
 <img width="1124" alt="image" src="https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/9f87c3f6-d0ab-403c-916e-e5d6b48f3f3e">
 
-With AI-generated images (stable diffusion):
-![Prompt With Ai Generated Images Stable Diffusion](https://j.gifs.com/MZPZK3.gif)
+With AI-generated images (stable diffusion): 
+
+![With Stable Diffusion](https://j.gifs.com/MZPZK3.gif)
 
 ## Setup (local)
 
