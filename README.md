@@ -7,14 +7,14 @@ Powered by GPT-3.5.
 AI generated images from stable diffusion.
 
 Preview Demo (v1):
-![Creative Generator Webapp](https://j.gifs.com/BrArEJ.gif)
 
-V2 - With AI-generated images (stable diffusion): 
+With AI-generated images (stable diffusion): 
 
 ![gif](https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/3e8b3127-fc80-470a-8f57-69e57d10f656)
 
 Longer:
-![StableDiff](https://j.gifs.com/WPrPKg.gif)
+![gif2](https://github.com/lulu-wang/Creative-Writing-AI-Webapp/assets/16969709/56d20bef-d580-4916-87c1-f42eca069006)
+
 
 
 ## Setup (local)
