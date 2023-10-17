@@ -33,6 +33,8 @@ Longer:
    ```bash
    $ pip install -r requirements.txt
    ```
+   
+   Make sure to have API keys for Open AI and Stable Diffusion.
 
 4. Run the app:
 
