@@ -19,7 +19,7 @@ Longer:
 
 ## Setup (local)
 
-1. Navigate into the project directory.
+1. Clone and navigate into the project directory.
 
 2. Create a new virtual environment:
 
@@ -27,16 +27,16 @@ Longer:
    $ python -m venv venv
    $ . venv/bin/activate
    ```
+3. Make sure to have API keys for Open AI and Stable Diffusion. Update these values in .env.example.
 
-3. Install the requirements:
+4. Install the requirements:
 
    ```bash
    $ pip install -r requirements.txt
    ```
    
-   Make sure to have API keys for Open AI and Stable Diffusion.
 
-4. Run the app:
+5. Run the app:
 
    ```bash
    $ flask run
